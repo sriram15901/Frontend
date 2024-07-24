@@ -1,0 +1,135 @@
+body{
+  background-color: #465b4e;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  margin-right: 100px;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-top: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+}
+
+header h3 {
+  margin: 0; 
+  margin-left: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+}
+
+header{
+  display:flex;
+  align-items: center;
+  color:wheat;
+  margin: 0;
+  padding: 0;
+  height:50px;
+  width:100%;
+  margin-top: 50px;
+}
+
+.home{
+  color:#547da4;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width:50%;
+  margin-top: 150px;
+
+}
+
+.home h2{
+  font-family: cursive;
+  font-size: 70px;
+}
+
+.home h3{
+ font-family: monospace;
+ font-size: 100px;
+}
+
+.home h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.home button{
+ border-radius: 10px;
+ height: 70px;
+ width:200px;
+ border: none;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 210px;
+  margin-bottom: 50px;
+  color: wheat;
+}
+
+.about p{
+  font-size: 30px;
+  color: rgb(222, 231, 235);
+  padding: 0px 150px 0px 150px;
+  word-spacing: 20px;
+  margin-top: 50px;
+}
+
+.skills ul{
+  color:yellowgreen;
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.skills h4{
+  color:rgb(222, 231, 235);
+  margin-left: 150px;
+  font-weight: bolder;
+  font-size: 30px;
+  display: block;
+}
+
+.skills li{
+  margin-bottom: 20px;
+  font-size: 25px;
+  margin-left: 200px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.projects h4{
+  font-size: 30px;
+  color:rgb(222, 231, 235);
+  margin-left: 150px;
+  font-weight: bolder;
+}
+
+.projects ul{
+  color:yellowgreen;
+  padding: 0 20px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 25px;
+  margin: 50px 100px 50px 200px;
+}
+
+footer{
+  color:rgb(222, 231, 235);
+  font-size: 20px;
+  text-align: center;
+}
+
